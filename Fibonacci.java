@@ -1,23 +1,22 @@
 import java.util.Scanner;
 
+
+
 public class Fibonacci{
     public static void main(String []args){
-		int start;
-
-		try{
-            start = Integer.parseInt(args[0]);
-		}
-		catch(Exception e){
-            Scanner keyboard= new Scanner(System.in);
-			
-            System.out.print("Enter the start value: ");
-            start= keyboard.nextInt();
-		}
-		
+    	long start;
+        if (args.length == 0){
+            System.out.println("please enter the argument. Input number must be under 93");
+            
+            Scanner input= new Scanner(System.in);
+            System.out.print("Enter the value: ");
+            start= input.nextLong();
+        }
+        else
+        	start = Integer.parseInt(args[0]);
         long fib1 = 0;
         long fib2 = 1;
-        
-		if (start < 2){
+        if (start < 2){
             System.out.println("input number should be larger than 2");
             return;
         }
