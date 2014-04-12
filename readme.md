@@ -35,8 +35,8 @@ F18 = 2584, F19 = 4181, F20 =  6765
 ````
 ### Optional
 - 기타 다른 언어로도 구현해 보세요~ (e.g. c, cpp, python....etc )
-python버전 추가했습니다.
-실행방법 : python Fibonacci.py "arguments"
+- python버전 추가했습니다.
+- 실행방법 : python Fibonacci.py "arguments"
 
 ## Coding Convention
 - indentation : `tab`대신 `space` 4개를 사용합니다.
