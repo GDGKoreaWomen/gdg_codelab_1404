@@ -1,11 +1,19 @@
+import java.util.Scanner;
+
+
+
 public class Fibonacci{
     public static void main(String []args){
-
+    	long start;
         if (args.length == 0){
             System.out.println("please enter the argument. Input number must be under 93");
-            return;
+            
+            Scanner input= new Scanner(System.in);
+            System.out.print("Enter the value: ");
+            start= input.nextLong();
         }
-        long start = Integer.parseInt(args[0]);
+        else
+        	start = Integer.parseInt(args[0]);
         long fib1 = 0;
         long fib2 = 1;
         if (start < 2 && start > -2){
