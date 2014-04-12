@@ -15,8 +15,8 @@ int main(void){
 	case 1:											// if index value is 1
         printf("F1 = %lu\n", fib2);					// print the fibonacci(1)
         break;			
-    default:
-        for(int i=0; i<=(start-2); i++){
+    default:										// if index value more than 1
+        for(int i=0; i<=(start-2); i++){			// calculate the result and print process and result
             fib3= fib1 + fib2;
             printf("F%d = %lu, F%d = %lu, F%d = %lu\n", i, fib1, i+1, fib2, i+2, fib3);
             fib1= fib2;
