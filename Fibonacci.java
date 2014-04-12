@@ -1,6 +1,14 @@
 public class Fibonacci{
     public static void main(String []args){
-        int start = Integer.parseInt(args[0]);
+		int start;
+
+		try{
+        	start = Integer.parseInt(args[0]);
+		}
+		catch(Exception e){
+			System.out.println("No Argument.\nPlease enter the Input Value");
+			return ;
+		}
         int fib1 = 0;
         int fib2 = 1;
         for(int i = 0; i <= (start -2); i++) {
