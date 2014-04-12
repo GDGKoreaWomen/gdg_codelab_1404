@@ -1,7 +1,7 @@
 public class Fibonacci{
     public static void main(String []args){
         if (args.length == 0){
-            System.out.println("please enter the argument");
+            System.out.println("please enter the argument. Input number must be under 93");
             return;
         }
         long start = Integer.parseInt(args[0]);
