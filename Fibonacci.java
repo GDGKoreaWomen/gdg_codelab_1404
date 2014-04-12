@@ -11,7 +11,7 @@ public class Fibonacci{
         for(int i = 0; i <= (start -2); i++) {	// 제1항과 제2항은 이미 정해져 있으므로 start-2를 해야 한다.
             int fib3 = fib1 + fib2;		// n번째 항 = (n-1)번째 항 + (n-2)번째항 
             System.out.println("F"+ i + " = " + fib1 + ", F" + (i+1) + " = " + fib2 + ", F" + (i+2) + " =  " + fib3);
-            fib1 = fib2;	
+            fib1 = fib2;
             fib2 = fib3;
         }
     }
