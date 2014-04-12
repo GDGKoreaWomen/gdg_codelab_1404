@@ -7,6 +7,7 @@ int main(void){
 
     printf("input the index value: ");
     scanf("%d",&start);								// enter the index value from console by user
+													// input value more than 100, OK
 
     switch(start){	
     case 0:											// if index value is 0
