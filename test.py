@@ -7,7 +7,7 @@ def F(n):
 
 if __name__ == '__main__':
     commands.getstatusoutput('javac Fibonacci.java')
-    for x in range(8):
+    for x in range(100):
         java = commands.getstatusoutput('java Fibonacci '+str(x))[1]
         try:
             java_last = int(java.split('=')[-1])
