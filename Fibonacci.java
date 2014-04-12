@@ -1,5 +1,9 @@
 public class Fibonacci{
     public static void main(String []args){
+        if (args.length == 0){
+            System.out.println("please enter the argument");
+            return;
+        }
         long start = Integer.parseInt(args[0]);
         long fib1 = 0;
         long fib2 = 1;
