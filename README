@@ -20,3 +20,18 @@ F6 = 8, F7 = 13, F8 =  21
 F7 = 13, F8 = 21, F9 =  34
 F8 = 21, F9 = 34, F10 =  55
 {code}
+
+* c version compile
+**noirCynical-ui-MacBook-Air:gdg_codelab_1404 noirCynical$ gcc Fibonacci.c
+**noirCynical-ui-MacBook-Air:gdg_codelab_1404 noirCynical$ ./a.out 
+input the index value: 10
+F0 = 0, F1 = 1, F2 = 1
+F1 = 1, F2 = 1, F3 = 2
+F2 = 1, F3 = 2, F4 = 3
+F3 = 2, F4 = 3, F5 = 5
+F4 = 3, F5 = 5, F6 = 8
+F5 = 5, F6 = 8, F7 = 13
+F6 = 8, F7 = 13, F8 = 21
+F7 = 13, F8 = 21, F9 = 34
+F8 = 21, F9 = 34, F10 = 55
+
