@@ -14,7 +14,7 @@ public class Fibonacci{
         }
         if (Math.abs(start) > 92){
             System.out.println("You can't gain over F(+/-)93");
-            start = 92;
+            return;
         }
         if (start > 0){
             for(long i = 0; i <= (start -2); i++) {
